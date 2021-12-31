@@ -1,13 +1,3 @@
-collections:
-    cards:
-
-  
-defaults:
-    - scope:
-        path: ""
-      values:
-        layout: "default"
-
 plugins:
     - jekyll-feed
     - jekyll-sitemap
