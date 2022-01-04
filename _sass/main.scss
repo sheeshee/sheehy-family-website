@@ -1,3 +1,39 @@
-.content {
-    color: blue;
+img {
+    width: 100%;
+}
+
+.home {
+    display: flex;
+}
+
+.title-box {
+    width: 80vw;
+    max-width: 350px;
+    background-color: red;
+    text-align: center;
+}
+
+.newsletter-list {
+    width: 100%;
+    background-color: blue;
+}
+
+// Small screens
+@media screen and (max-width: 500px) {
+    .home {
+        flex-direction: column;
+    }
+
+    .title-box {
+        width: 100%;
+        max-width: none;
+    }
+
+    img {
+        display: block;
+        width: 75vw;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
 }
