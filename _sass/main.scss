@@ -1,21 +1,65 @@
+// colours: https://coolors.co/335c67-fff3b0-e09f3e-9e2a2b-540b0e
+
+$blue: #335C67;
+$sand: #FFF3B0;
+$mustard: #E09F3E;
+$magenta: #9E2A2B;
+$crimson: #540B0E;
+
+body {
+    background-color: $sand;
+}
+
 img {
     width: 100%;
+    border: 3px solid $crimson;
+    margin: 5px;
+
+}
+
+h1 {
+    color: $blue
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: $mustard;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+}
+
+footer a {
+    color: $blue;
 }
 
 .home {
     display: flex;
 }
 
+
 .title-box {
     width: 80vw;
     max-width: 350px;
-    background-color: red;
     text-align: center;
 }
 
 .newsletter-list {
     width: 100%;
-    background-color: blue;
+    padding: 10px;
+}
+
+.item-tile {
+    background-color: $blue;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
 }
 
 // Small screens
@@ -31,9 +75,9 @@ img {
 
     img {
         display: block;
-        width: 75vw;
+        width: 50vw;
         max-width: 300px;
-        margin: 0 auto;
+        margin: 5px auto;
     }
 
 }
