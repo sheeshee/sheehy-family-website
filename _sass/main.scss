@@ -29,26 +29,26 @@ $gradient-radial: radial-gradient(#C3C3C3ff, #443A34ff, #AFD1F3ff, #6D7269ff, #D
 
 
 body {
-    background-color: $sand;
+    background-color: rgb(240, 240, 240);
 }
 
 img {
     width: 100%;
-    border: 3px solid $crimson;
     margin: 5px;
 
 }
 
 h1 {
-    color: $blue
+    color: $dark-lava
 }
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 a:hover {
-    color: $mustard;
+    color: $gold-metallic;
 }
 
 footer {
@@ -78,7 +78,7 @@ footer a {
 }
 
 .item-tile {
-    background-color: $blue;
+    background-color: $denim;
     padding: 20px;
     margin: 10px;
     border-radius: 5px;
