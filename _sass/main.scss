@@ -1,10 +1,32 @@
-// colours: https://coolors.co/335c67-fff3b0-e09f3e-9e2a2b-540b0e
+/* SCSS HEX */
+$silver: #C3C3C3ff;
+$dark-lava: #443A34ff;
+$baby-blue-eyes: #AFD1F3ff;
+$nickel: #6D7269ff;
+$gold-metallic: #DCB200ff;
+$slimy-green: #0CA320ff;
+$dodger-blue: #2A90F3ff;
+$denim: #0264C7ff;
+$linen: #EBE2D7ff;
 
+// Old colors https://coolors.co/335c67-fff3b0-e09f3e-9e2a2b-540b0e
 $blue: #335C67;
 $sand: #FFF3B0;
 $mustard: #E09F3E;
 $magenta: #9E2A2B;
 $crimson: #540B0E;
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #C3C3C3ff, #443A34ff, #AFD1F3ff, #6D7269ff, #DCB200ff, #0CA320ff, #2A90F3ff, #0264C7ff, #EBE2D7ff);
+$gradient-right: linear-gradient(90deg, #C3C3C3ff, #443A34ff, #AFD1F3ff, #6D7269ff, #DCB200ff, #0CA320ff, #2A90F3ff, #0264C7ff, #EBE2D7ff);
+$gradient-bottom: linear-gradient(180deg, #C3C3C3ff, #443A34ff, #AFD1F3ff, #6D7269ff, #DCB200ff, #0CA320ff, #2A90F3ff, #0264C7ff, #EBE2D7ff);
+$gradient-left: linear-gradient(270deg, #C3C3C3ff, #443A34ff, #AFD1F3ff, #6D7269ff, #DCB200ff, #0CA320ff, #2A90F3ff, #0264C7ff, #EBE2D7ff);
+$gradient-top-right: linear-gradient(45deg, #C3C3C3ff, #443A34ff, #AFD1F3ff, #6D7269ff, #DCB200ff, #0CA320ff, #2A90F3ff, #0264C7ff, #EBE2D7ff);
+$gradient-bottom-right: linear-gradient(135deg, #C3C3C3ff, #443A34ff, #AFD1F3ff, #6D7269ff, #DCB200ff, #0CA320ff, #2A90F3ff, #0264C7ff, #EBE2D7ff);
+$gradient-top-left: linear-gradient(225deg, #C3C3C3ff, #443A34ff, #AFD1F3ff, #6D7269ff, #DCB200ff, #0CA320ff, #2A90F3ff, #0264C7ff, #EBE2D7ff);
+$gradient-bottom-left: linear-gradient(315deg, #C3C3C3ff, #443A34ff, #AFD1F3ff, #6D7269ff, #DCB200ff, #0CA320ff, #2A90F3ff, #0264C7ff, #EBE2D7ff);
+$gradient-radial: radial-gradient(#C3C3C3ff, #443A34ff, #AFD1F3ff, #6D7269ff, #DCB200ff, #0CA320ff, #2A90F3ff, #0264C7ff, #EBE2D7ff);
+
 
 body {
     background-color: $sand;
