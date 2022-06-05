@@ -5,16 +5,34 @@ layout: default
     <div class="title-box">
         <img src="assets/img/sheehy-crest.png">
         <h1>The Sheehy Family Newsletter</h1>
-        <p>Click on a date to download its issue.</p>
+        <h2>Click on a date to download its issue.</h2>
     </div>
     <div class="newsletter-list">
         {% for item in site.data.newsletters reversed %}
         <div class="item-tile">
             <a href="assets/newsletters/{{ item.file }}" target="_blank">
-                <h2>{{ item.date }}</h2>
+                <h3>{{ item.date }}</h3>
             </a>
         </div>
         {% endfor %}
+    </div>
+    <div class="gallery">
+        <h2>Some photos</h2>
+        <div class="entry-list">
+            <div class="entry">
+                <img src="assets/img/ThomasRoseFamily1.jpg">
+                <p class="caption">
+                    A portrait of Thomas, Rose and their family.
+                </p>
+            </div>
+            <div class="entry">
+                <img src="assets/img/ThomasRoseWedding.jpg">
+                <p class="caption">
+                    A portrait of Thomas and Rose to mark their wedding.
+                </p>
+            </div>
+        </div>
+    </div>
     </div>
 </div>
 <footer>

@@ -34,11 +34,13 @@ body {
 
 img {
     width: 100%;
-    margin: 5px;
+    display: block;
+    max-width: 300px;
+    margin: 5px auto;
 
 }
 
-h1 {
+h1, h2 {
     color: $dark-lava
 }
 
@@ -51,24 +53,18 @@ a:hover {
     color: $gold-metallic;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    left: 5px;
-}
-
 footer a {
     color: $blue;
 }
 
 .home {
     display: flex;
+    flex-direction: column;
 }
 
 
 .title-box {
-    width: 80vw;
-    max-width: 350px;
+    width: 100%;
     text-align: center;
 }
 
@@ -80,26 +76,17 @@ footer a {
 .item-tile {
     background-color: $denim;
     padding: 20px;
-    margin: 10px;
+    margin: 10px auto;
     border-radius: 5px;
+    max-width: 350px;
 }
 
-// Small screens
-@media screen and (max-width: 500px) {
-    .home {
-        flex-direction: column;
-    }
+.gallery {
+    text-align: center;
+}
 
-    .title-box {
-        width: 100%;
-        max-width: none;
-    }
-
-    img {
-        display: block;
-        width: 50vw;
-        max-width: 300px;
-        margin: 5px auto;
-    }
-
+.entry-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
